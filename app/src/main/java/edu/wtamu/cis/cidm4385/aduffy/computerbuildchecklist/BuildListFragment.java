@@ -13,17 +13,17 @@ import android.widget.Toast;
 import java.util.List;
 
 public class BuildListFragment extends Fragment {
-    private RecyclerView mCrimeRecyclerView;
-    private CrimeAdapter mAdapter;
+    private RecyclerView mListRecyclerView;
+    private CheckListAdapter mAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_crime_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_check_list, container, false);
 
-        mCrimeRecyclerView = (RecyclerView) view
+        mListRecyclerView = (RecyclerView) view
                 .findViewById(R.id.crime_recycler_view);
-        mCrimeRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        mListRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         updateUI();
 
@@ -31,66 +31,67 @@ public class BuildListFragment extends Fragment {
     }
 
     private void updateUI() {
-        CrimeLab crimeLab = CrimeLab.get(getActivity());
-        List<Crime> crimes = crimeLab.getCrimes();
+        CheckListRepo checkListRepo = CheckListRepo.get(getActivity());
+        List<CheckListItem> checkListItems = checkListRepo.getCheckListItems();
 
-        mAdapter = new CrimeAdapter(crimes);
-        mCrimeRecyclerView.setAdapter(mAdapter);
+        mAdapter = new CheckListAdapter(checkListItems);
+        mListRecyclerView.setAdapter(mAdapter);
     }
 
-    private class CrimeHolder extends RecyclerView.ViewHolder
+    private class CheckListHolder extends RecyclerView.ViewHolder
             implements View.OnClickListener {
 
-        private Crime mCrime;
+        private CheckListItem mCheckListItem;
 
         private TextView mTitleTextView;
         private TextView mDateTextView;
 
-        public CrimeHolder(LayoutInflater inflater, ViewGroup parent) {
-            super(inflater.inflate(R.layout.list_item_crime, parent, false));
+        public CheckListHolder(LayoutInflater inflater, ViewGroup parent) {
+            super(inflater.inflate(R.layout.check_list_item, parent, false));
             itemView.setOnClickListener(this);
 
             mTitleTextView = (TextView) itemView.findViewById(R.id.crime_title);
             mDateTextView = (TextView) itemView.findViewById(R.id.crime_date);
         }
 
-        public void bind(Crime crime) {
-            mCrime = crime;
-            mTitleTextView.setText(mCrime.getTitle());
-            mDateTextView.setText(mCrime.getDate().toString());
+        public void bind(CheckListItem checkListItem) {
+            mCheckListItem = checkListItem;
+            mTitleTextView.setText(mCheckListItem.getQuestion());
+//            mDateTextView.setText(mCrime.getDate().toString());
         }
 
         @Override
         public void onClick(View view) {
             Toast.makeText(getActivity(),
-                    mCrime.getTitle() + " clicked!", Toast.LENGTH_SHORT)
+                    mCheckListItem.getQuestion() + " clicked!", Toast.LENGTH_SHORT)
                     .show();
         }
     }
 
-    private class CrimeAdapter extends RecyclerView.Adapter<CrimeHolder> {
 
-        private List<Crime> mCrimes;
+    private class CheckListAdapter extends RecyclerView.Adapter<CheckListHolder> {
 
-        public CrimeAdapter(List<Crime> crimes) {
-            mCrimes = crimes;
+        private List<CheckListItem> mCheckListItems;
+
+        public CheckListAdapter(List<CheckListItem> checkListItems) {
+            mCheckListItems = checkListItems;
         }
 
         @Override
-        public CrimeHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        public CheckListHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
-            return new CrimeHolder(layoutInflater, parent);
+            return new CheckListHolder(layoutInflater, parent);
         }
 
         @Override
-        public void onBindViewHolder(CrimeHolder holder, int position) {
-            Crime crime = mCrimes.get(position);
-            holder.bind(crime);
+        public void onBindViewHolder(CheckListHolder holder, int position) {
+            CheckListItem checkListItem = mCheckListItems.get(position);
+            holder.bind(checkListItem);
         }
 
         @Override
         public int getItemCount() {
-            return mCrimes.size();
+            return mCheckListItems.size();
         }
     }
 }

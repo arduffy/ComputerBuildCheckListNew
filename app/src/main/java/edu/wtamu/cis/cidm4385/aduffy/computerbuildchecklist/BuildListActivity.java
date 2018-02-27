@@ -6,6 +6,6 @@ public class BuildListActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return new CrimeListFragment();
+        return new BuildListFragment();
     }
 }

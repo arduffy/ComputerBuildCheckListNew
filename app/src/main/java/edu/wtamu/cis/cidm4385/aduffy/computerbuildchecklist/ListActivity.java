@@ -6,6 +6,6 @@ public class ListActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return new CrimeFragment();
+        return new CheckListItemFragment();
     }
 }

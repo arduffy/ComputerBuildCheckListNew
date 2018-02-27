@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ComputerBuildCheckList</string>
+    <string name="app_name">ComputerBuildChecklist</string>
+    <string name="case_check">Is there a case?</string>
+    <string name="motherboard_check">Is there a motherboard?</string>
+    <string name="power_supply_check">Is there a power supply?</string>
+    <string name="cpu_check">Is there a processor?</string>
+    <string name="gpu_check">Is there a graphics card?</string>
+    <string name="heat_sink_check">Is there a heat sink?</string>
+    <string name="monitor_check">Is there a monitor?</string>
+    <string name="keyboard_check">Is there a keyboard?</string>
+    <string name="mouse_check">Is there a mouse?</string>
+    <string name="speakers_check">Are there speakers?</string>
 </resources>
