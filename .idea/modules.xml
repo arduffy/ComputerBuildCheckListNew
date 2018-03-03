@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckListNew.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckListNew.iml" />
+      <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew\ComputerBuildCheckListNew.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew\ComputerBuildCheckListNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew\app\app.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew\app\app.iml" />
     </modules>
   </component>
 </project>
