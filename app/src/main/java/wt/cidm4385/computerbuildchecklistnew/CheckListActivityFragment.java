@@ -12,10 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by ad939564 on 2/28/2018.
- */
-
 public class CheckListActivityFragment extends Fragment {
 
     ArrayAdapter<String> mTaskAdapter;
