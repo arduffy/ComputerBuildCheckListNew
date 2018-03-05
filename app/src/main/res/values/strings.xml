@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">ComputerBuildCheckList</string>
+    <string name="app_name">ComBldCkList</string>
+    <string-array name="build_list">
+        <item>ATX tower case</item>
+        <item>Power Supply</item>
+        <item>CPU</item>
+        <item>ATX MotherBoard</item>
+        <item>Processor</item>
+        <item>RAM/Memory</item>
+        <item>Hard Drive</item>
+        <item>Graphics/video card</item>
+        <item>Sound Card</item>
+        <item>Cooling/Fans</item>
+        <item>etc...</item>
+    </string-array>
 </resources>
+
