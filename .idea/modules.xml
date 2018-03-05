@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckList1.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckList1.iml" />
+      <module fileurl="file://C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\ComputerBuildCheckList1.iml" filepath="C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\ComputerBuildCheckList1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckListNew.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckListNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\app\app.iml" filepath="C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\app\app.iml" />
     </modules>
   </component>
 </project>
