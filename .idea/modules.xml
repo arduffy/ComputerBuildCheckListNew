@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\ComputerBuildCheckList1.iml" filepath="C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\ComputerBuildCheckList1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckListNew.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckListNew.iml" />
+      <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew6\ComputerBuildCheckListNew.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew6\ComputerBuildCheckListNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckListNew6.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckListNew6.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\app\app.iml" filepath="C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\app\app.iml" />
+      <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew6\app\app.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew6\app\app.iml" />
     </modules>
   </component>
 </project>
