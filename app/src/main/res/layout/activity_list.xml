@@ -3,23 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".ListActivity"   >
+    tools:context="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.ListActivity">
 
-    <ListView
-        android:id="@+id/checkable_list"
+    <fragment
+        android:id="@+id/fragment1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"    >
-    </ListView>
-
-    <Button
-        android:id="@+id/bt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Click here to see installed parts list"
-        android:onClick="showSelectedItems"
-        android:background="@android:color/black"
-        android:textColor="@android:color/white"    />
+        android:layout_height="match_parent"
+        class="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.CheckListFragment"    />
 
 </LinearLayout>

@@ -2,27 +2,27 @@ package edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
-
 /**
  * Created by Amanda on 3/5/2018.
  */
 
-public class CheckListFragment extends Fragment {
+public class CheckListFragment extends ListFragment implements AdapterView.OnItemClickListener {
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.fragment_list, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)   {
+//        return super.onCreateView(inflater, container, savedInstanceState);
+        View view = inflater.inflate(R.layout.list_fragment,container,false);
 
         return view;
-    }
 
+    }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState)  {
@@ -33,12 +33,11 @@ public class CheckListFragment extends Fragment {
         getListView().setOnItemClickListener(this);
     }
 
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
         String[] buildList = getActivity().getResources().getStringArray(R.array.build_list);
 
-        Toast.makeText(getActivity(), "Done! " + buildList[position], Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(), "Add " + buildList[position], Toast.LENGTH_SHORT).show();
     }
 }
