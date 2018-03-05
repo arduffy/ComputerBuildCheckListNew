@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ComBldCkList</string>
+    <string name="app_name">Computer Build Check List</string>
     <string-array name="build_list">
         <item>ATX tower case</item>
         <item>Power Supply</item>
