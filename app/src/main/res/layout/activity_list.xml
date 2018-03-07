@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.ListActivity">
-
-    <fragment
-        android:id="@+id/fragment1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        class="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.CheckListFragment"    />
-
-</LinearLayout>
+    android:layout_height="match_parent" />
