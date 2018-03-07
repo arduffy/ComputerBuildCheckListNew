@@ -9,6 +9,7 @@
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -19,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="CheckBox"
+
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="0dp" />
@@ -29,33 +30,29 @@
         android:id="@+id/part_cpu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="120dp"
-        android:onClick="selectItem"
-        android:text="@string/cpu"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/part_board" />
+        android:layout_marginEnd="16dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
 
     <CheckBox
         android:id="@+id/part_board"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="252dp"
-        android:onClick="selectItem"
-        android:text="@string/board"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="124dp" />
+        android:layout_marginEnd="16dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
 
     <CheckBox
         android:id="@+id/part_processor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="16dp"
-        android:onClick="selectItem"
-        android:text="@string/processor"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/part_video_card" />
+        android:layout_marginEnd="16dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
 
     <CheckBox
         android:id="@+id/part_memory"
@@ -63,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:onClick="selectItem"
-        android:text="@string/memory"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/part_cpu" />
 
@@ -74,7 +71,7 @@
         android:layout_marginStart="268dp"
         android:layout_marginTop="48dp"
         android:onClick="selectItem"
-        android:text="@string/hard_drive"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/part_power" />
 
@@ -85,7 +82,7 @@
         android:layout_marginStart="272dp"
         android:layout_marginTop="112dp"
         android:onClick="selectItem"
-        android:text="@string/video_card"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/part_fan" />
 
@@ -96,7 +93,6 @@
         android:layout_marginStart="276dp"
         android:layout_marginTop="156dp"
         android:onClick="selectItem"
-        android:text="@string/sound_card"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,7 +103,7 @@
         android:layout_marginStart="272dp"
         android:layout_marginTop="32dp"
         android:onClick="selectItem"
-        android:text="@string/fan"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/part_sound_card" />
 
@@ -115,7 +111,7 @@
         android:id="@+id/part_power"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/power"
+
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="70dp" />
