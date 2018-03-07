@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="part_power" type="id" />
+    <item name="part_cpu" type="id" />
+    <item name="part_board" type="id" />
+    <item name="part_processor" type="id" />
+    <item name="part_memory" type="id" />
+    <item name="part_hard_drive" type="id" />
+    <item name="part_video_card" type="id" />
+    <item name="part_sound_card" type="id" />
+    <item name="part_fan" type="id" />
+    <item name="part_tower" type="id" />
+
+</resources>

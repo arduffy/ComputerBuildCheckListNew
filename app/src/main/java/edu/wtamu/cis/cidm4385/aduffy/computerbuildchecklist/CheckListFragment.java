@@ -9,9 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
-/**
- * Created by Amanda on 3/5/2018.
- */
+
 
 public class CheckListFragment extends ListFragment implements AdapterView.OnItemClickListener {
 
@@ -40,4 +38,5 @@ public class CheckListFragment extends ListFragment implements AdapterView.OnIte
 
         Toast.makeText(getActivity(), "Add " + buildList[position], Toast.LENGTH_SHORT).show();
     }
+
 }

@@ -13,5 +13,16 @@
         <item>Cooling/Fans</item>
         <item>etc...</item>
     </string-array>
+
+    <string name="tower">ATX Tower Case</string>
+    <string name="power">Power Supple</string>
+    <string name="cpu">CPU</string>
+    <string name="board">ATX MotherBoard</string>
+    <string name="processor">Processor</string>
+    <string name="memory">RAM/Memory</string>
+    <string name="hard_drive">Hard Drive</string>
+    <string name="video_card">Graphics/Video Card</string>
+    <string name="sound_card">Sound Card</string>
+    <string name="fan">Cooling Fans</string>
 </resources>
 
