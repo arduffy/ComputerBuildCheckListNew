@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.ListActivity">
+    tools:context="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.ListActivity"
+    android:orientation="horizontal">
+
 
     <fragment
         android:id="@+id/fragment1"
@@ -11,4 +13,10 @@
         android:layout_height="match_parent"
         class="edu.wtamu.cis.cidm4385.aduffy.computerbuildchecklist.CheckListFragment"    />
 
+
+
+
 </LinearLayout>
+
+
+
