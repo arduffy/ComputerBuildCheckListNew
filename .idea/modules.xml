@@ -4,10 +4,12 @@
     <modules>
       <module fileurl="file://C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\ComputerBuildCheckList1.iml" filepath="C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\ComputerBuildCheckList1.iml" />
       <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew0\ComputerBuildCheckListNew.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew0\ComputerBuildCheckListNew.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckListNew0.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckListNew0.iml" />
+      <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew1\ComputerBuildCheckListNew0.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew1\ComputerBuildCheckListNew0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComputerBuildCheckListNew1.iml" filepath="$PROJECT_DIR$/ComputerBuildCheckListNew1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\app\app.iml" filepath="C:\Users\Amanda\Documents\CIDM-4385\ComputerBuildCheckListNew\app\app.iml" />
       <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew2\app\app.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew2\app\app.iml" />
+      <module fileurl="file://C:\CIDM4385\ComputerBuildCheckListNew1\app\app.iml" filepath="C:\CIDM4385\ComputerBuildCheckListNew1\app\app.iml" />
     </modules>
   </component>
 </project>
